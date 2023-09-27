@@ -1,49 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Card Deck Example</title>
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-
-<div class="container mt-4">
-    <div class="card-deck">
-        <!-- Card 1 -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1695193984598-2cbfd23c6b0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Card Image">
-            <div class="card-body">
-                <h2 class="card-title">Welcome to Sync5</h2>
-                <p class="card-text">New Features</p>
-                <p class="card-text">Mobile and Tablet support</p>
-                <p class="card-text">With this new update you will be able to sync your work across a large number of platforms.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
-            </div>
+ 
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+ 
+  <body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+ 
+    <div class="contianer m-5">
+      <h1>Welcome to Sync5</h1>
+      <div class="card" style="width: 100%">
+        <div class="card-header">New Features</div>
+        <div class="card-body">
+          <h5 class="card-title">Mobile and Tablet support</h5>
+          <p class="card-text">
+            With this new update you will be able to sync your work across large
+            number of platforms.
+          </p>
+          <a href="#" class="btn btn-primary">Read more</a>
         </div>
-
-        <!-- Card 2 -->
-        <div class="card">
-            <div class="card-header bg-danger">
-                <h5 class="card-title text-white">Alert</h5>
-            
-            <div class="card-body">
-                <p class="card-text">Node Dead</p>
-                <p class="card-text">Node 5 (east-us) is offline for the last 12 days.</p>
-               
-            </div>
-				</div>
-			<h5>President under Pressure</h5>
-			<p>The US president is under pressure to respond to a widespread cyber-attack linked to China.</p>
-			 <p class="card-text text-muted">Last updated 12 mins ago</p>
+      </div>
+      <div class="card-deck">
+        <div class="card text-white bg-danger m-1" style="max-width: 18rem">
+          <div class="card-header">Alert</div>
+          <div class="card-body">
+            <h5 class="card-title">Node Dead</h5>
+            <p class="card-text">
+              Node 5 (east-us) is offline for last 12 days.
+            </p>
+          </div>
         </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1682687980976-fec0915c6177?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">President under Pressure</h5>
+            <p class="card-text">
+              The US president is under pressure to respond to a widespread
+              cyber-attack linked to China.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 12 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-
-<!-- Include Bootstrap JS and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+ 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+ 
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
